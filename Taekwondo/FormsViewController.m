@@ -44,6 +44,12 @@
 }
 */
 
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    self.navigationController.navigationBarHidden = NO;
+}
 - (void)viewDidUnload
 {
     [super viewDidUnload];
@@ -62,15 +68,31 @@
 
 - (IBAction)playVideo1:(id)sender 
 {
-    NSString *resourcePath = [[NSBundle mainBundle] resourcePath];
-    NSString *filename = [resourcePath stringByAppendingPathComponent:@"taeguk1.mp4"];
-    NSURL *pathURL = [NSURL URLWithString:filename];
     
-    MPMoviePlayerController *mp = [[MPMoviePlayerController alloc] initWithContentURL:pathURL];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"taeguk1" ofType:@"m4v"];
+    NSURL *url = [NSURL fileURLWithPath:path];
+    AVPlayer *player = [[AVPlayer alloc] initWithURL:url];
     
-    [mp prepareToPlay];
-    [mp play];
-
+    
+    AVPlayerLayer *playerLayer = [AVPlayerLayer playerLayerWithPlayer:player];
+    playerLayer.bounds = self.view.bounds;
+    playerLayer.position = CGPointMake(self.view.bounds.size.width/2., self.view.bounds.size.height/2.);
+    
+    [self.view.layer addSublayer:playerLayer];
+    
+    [player play];
+    
+    
+//    NSString *path = [[NSBundle mainBundle] pathForResource:@"test" ofType:@"MOV"];
+//    NSURL *url = [NSURL fileURLWithPath:path];
+//    
+//    MPMoviePlayerController *player = [[MPMoviePlayerController alloc] initWithContentURL:url];
+//    [player prepareToPlay];
+//    
+//    [player.view setFrame:self.view.bounds];  // player's frame must match parent's
+//    [self.view addSubview: player.view];
+//    
+//    [player play];
 }
 
 @end

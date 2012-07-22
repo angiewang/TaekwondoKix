@@ -94,7 +94,7 @@ GLuint m_depthRenderbuffer;
 	if(glCheckFramebufferStatus(GL_FRAMEBUFFER) != GL_FRAMEBUFFER_COMPLETE)
 	{
 		NSLog(@"failed to make complete framebuffer object %x", glCheckFramebufferStatus(GL_FRAMEBUFFER));
-		return NO;
+		return nil;
 	}
 	
 	self = [super initWithDefaultFBO:m_defaultFBOName];
@@ -164,8 +164,7 @@ GLuint m_depthRenderbuffer;
 		glDeleteRenderbuffers(1, &m_colorRenderbuffer);
 		m_colorRenderbuffer = 0;
 	}
-	
-	[super dealloc];
+
 }
 
 @end

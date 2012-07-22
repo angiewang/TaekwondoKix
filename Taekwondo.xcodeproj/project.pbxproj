@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1542AE6B15BC74F70050F094 /* BuyGear.m in Sources */ = {isa = PBXBuildFile; fileRef = 1542AE6A15BC74F70050F094 /* BuyGear.m */; };
+		1542AE6D15BC75A40050F094 /* redbutton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1542AE6C15BC75A40050F094 /* redbutton1.png */; };
 		155D78EC15BB752A0030FFC9 /* TechniqueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 155D78EB15BB752A0030FFC9 /* TechniqueViewController.m */; };
 		155D790915BB7BCA0030FFC9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155D790815BB7BCA0030FFC9 /* QuartzCore.framework */; };
 		1575B61915BB1462007AAE74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1575B61815BB1462007AAE74 /* UIKit.framework */; };
@@ -24,8 +26,24 @@
 		1575B63A15BB1462007AAE74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1575B63915BB1462007AAE74 /* ViewController.m */; };
 		1575B69215BB2263007AAE74 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1575B69015BB2263007AAE74 /* Menu.m */; };
 		1575B69F15BB2538007AAE74 /* About.m in Sources */ = {isa = PBXBuildFile; fileRef = 1575B69D15BB2537007AAE74 /* About.m */; };
+		1583A19815BBA530004ACA41 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 155D791715BB7DBF0030FFC9 /* EAGLView.m */; };
+		1583A19915BBA5C2004ACA41 /* ES2Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 155D791915BB7DBF0030FFC9 /* ES2Renderer.m */; };
+		1583A19A15BBA5F1004ACA41 /* OpenGLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 155D790215BB77340030FFC9 /* OpenGLRenderer.m */; };
+		1583A19B15BBA686004ACA41 /* matrixUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = 155D78F715BB77110030FFC9 /* matrixUtil.c */; };
+		1583A19C15BBA708004ACA41 /* modelUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = 155D78F515BB77110030FFC9 /* modelUtil.c */; };
+		1583A19D15BBA926004ACA41 /* imageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 155D78F915BB77110030FFC9 /* imageUtil.m */; };
+		1583A19E15BBAB04004ACA41 /* sourceUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = 155D78F115BB77110030FFC9 /* sourceUtil.c */; };
+		1583A19F15BBAB37004ACA41 /* vectorUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = 155D78F315BB77110030FFC9 /* vectorUtil.c */; };
+		1583A1A015BBAC93004ACA41 /* demon.png in Resources */ = {isa = PBXBuildFile; fileRef = 155D790315BB77E60030FFC9 /* demon.png */; };
+		1583A1A115BBAC93004ACA41 /* demon.model in Resources */ = {isa = PBXBuildFile; fileRef = 155D790415BB77E60030FFC9 /* demon.model */; };
+		1583A1AA15BBAD3D004ACA41 /* character.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 1583A1A215BBAD0D004ACA41 /* character.fsh */; };
+		1583A1AB15BBAD3D004ACA41 /* character.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 1583A1A315BBAD0E004ACA41 /* character.vsh */; };
+		1583A1AC15BBAD3D004ACA41 /* reflect.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 1583A1A415BBAD0E004ACA41 /* reflect.fsh */; };
+		1583A1AD15BBAD3D004ACA41 /* reflect.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 1583A1A515BBAD0E004ACA41 /* reflect.vsh */; };
+		1583A1AF15BBB722004ACA41 /* taeguk1.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 1583A1AE15BBB722004ACA41 /* taeguk1.m4v */; };
+		1583A1B115BBBA8C004ACA41 /* test.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 1583A1B015BBBA8C004ACA41 /* test.MOV */; };
+		1583A1B315BBBBCB004ACA41 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1583A1B215BBBBCB004ACA41 /* AVFoundation.framework */; };
 		1592317115BB4EE900DC1607 /* DietPlan.m in Sources */ = {isa = PBXBuildFile; fileRef = 1592316F15BB4EE800DC1607 /* DietPlan.m */; };
-		1592317215BB4EE900DC1607 /* DietPlan.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1592317015BB4EE800DC1607 /* DietPlan.xib */; };
 		1592318715BB564000DC1607 /* BabyBlueButtonActive.png in Resources */ = {isa = PBXBuildFile; fileRef = 1592317315BB563F00DC1607 /* BabyBlueButtonActive.png */; };
 		1592318815BB564000DC1607 /* BabyOrangeButtonActive.png in Resources */ = {isa = PBXBuildFile; fileRef = 1592317415BB563F00DC1607 /* BabyOrangeButtonActive.png */; };
 		1592318915BB564000DC1607 /* BlackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1592317515BB563F00DC1607 /* BlackButton.png */; };
@@ -48,12 +66,20 @@
 		1592319A15BB564000DC1607 /* UIAlertSheetDefaultBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 1592318615BB563F00DC1607 /* UIAlertSheetDefaultBackground.png */; };
 		1592319D15BB576600DC1607 /* titleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1592319C15BB576600DC1607 /* titleController.m */; };
 		159231A015BB5FB400DC1607 /* Palgwe 1 - Grand Master Park.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1592319E15BB5FB400DC1607 /* Palgwe 1 - Grand Master Park.mp4 */; };
-		159231A115BB5FB400DC1607 /* taeguk1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1592319F15BB5FB400DC1607 /* taeguk1.mp4 */; };
 		159231A415BB602C00DC1607 /* FormsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159231A315BB602C00DC1607 /* FormsViewController.m */; };
 		159231A615BB613F00DC1607 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159231A515BB613F00DC1607 /* MediaPlayer.framework */; };
+		1597922215BC5F2D00866685 /* purplebutton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1597922115BC5F2D00866685 /* purplebutton1.png */; };
+		1597922515BC5F7400866685 /* orangebutton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1597922415BC5F7300866685 /* orangebutton1.png */; };
+		1597922715BC5FD300866685 /* yellowbutton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1597922615BC5FD300866685 /* yellowbutton1.png */; };
+		1597922915BC605500866685 /* brownbutton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1597922815BC605400866685 /* brownbutton1.png */; };
+		15D3C40515BC1E0700E50D0C /* Yin_yang-1-.png in Resources */ = {isa = PBXBuildFile; fileRef = 15D3C40415BC1E0700E50D0C /* Yin_yang-1-.png */; };
+		15D3C40D15BC340600E50D0C /* Notes.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D3C40C15BC340600E50D0C /* Notes.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1542AE6915BC74F70050F094 /* BuyGear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BuyGear.h; path = ../BuyGear.h; sourceTree = "<group>"; };
+		1542AE6A15BC74F70050F094 /* BuyGear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BuyGear.m; path = ../BuyGear.m; sourceTree = "<group>"; };
+		1542AE6C15BC75A40050F094 /* redbutton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redbutton1.png; sourceTree = "<group>"; };
 		155D78EA15BB752A0030FFC9 /* TechniqueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TechniqueViewController.h; sourceTree = "<group>"; };
 		155D78EB15BB752A0030FFC9 /* TechniqueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TechniqueViewController.m; sourceTree = "<group>"; };
 		155D78F115BB77110030FFC9 /* sourceUtil.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sourceUtil.c; sourceTree = "<group>"; };
@@ -66,7 +92,6 @@
 		155D78F815BB77110030FFC9 /* matrixUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = matrixUtil.h; sourceTree = "<group>"; };
 		155D78F915BB77110030FFC9 /* imageUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imageUtil.m; sourceTree = "<group>"; };
 		155D78FA15BB77110030FFC9 /* imageUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imageUtil.h; sourceTree = "<group>"; };
-		155D78FB15BB77110030FFC9 /* glUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = glUtil.h; sourceTree = "<group>"; };
 		155D78FC15BB77110030FFC9 /* OSXGLEssentials_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSXGLEssentials_Prefix.pch; sourceTree = "<group>"; };
 		155D790115BB77340030FFC9 /* OpenGLRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLRenderer.h; sourceTree = "<group>"; };
 		155D790215BB77340030FFC9 /* OpenGLRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLRenderer.m; sourceTree = "<group>"; };
@@ -102,9 +127,16 @@
 		1575B69015BB2263007AAE74 /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Menu.m; path = ../Menu.m; sourceTree = "<group>"; };
 		1575B69C15BB2537007AAE74 /* About.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = About.h; sourceTree = "<group>"; };
 		1575B69D15BB2537007AAE74 /* About.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = About.m; sourceTree = "<group>"; };
+		1583A19615BB9A39004ACA41 /* glUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = glUtil.h; sourceTree = "<group>"; };
+		1583A1A215BBAD0D004ACA41 /* character.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = character.fsh; sourceTree = "<group>"; };
+		1583A1A315BBAD0E004ACA41 /* character.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = character.vsh; sourceTree = "<group>"; };
+		1583A1A415BBAD0E004ACA41 /* reflect.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = reflect.fsh; sourceTree = "<group>"; };
+		1583A1A515BBAD0E004ACA41 /* reflect.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = reflect.vsh; sourceTree = "<group>"; };
+		1583A1AE15BBB722004ACA41 /* taeguk1.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = taeguk1.m4v; sourceTree = "<group>"; };
+		1583A1B015BBBA8C004ACA41 /* test.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = test.MOV; sourceTree = "<group>"; };
+		1583A1B215BBBBCB004ACA41 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		1592316E15BB4EE800DC1607 /* DietPlan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DietPlan.h; path = ../DietPlan.h; sourceTree = "<group>"; };
 		1592316F15BB4EE800DC1607 /* DietPlan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DietPlan.m; path = ../DietPlan.m; sourceTree = "<group>"; };
-		1592317015BB4EE800DC1607 /* DietPlan.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DietPlan.xib; path = ../DietPlan.xib; sourceTree = "<group>"; };
 		1592317315BB563F00DC1607 /* BabyBlueButtonActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BabyBlueButtonActive.png; sourceTree = "<group>"; };
 		1592317415BB563F00DC1607 /* BabyOrangeButtonActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BabyOrangeButtonActive.png; sourceTree = "<group>"; };
 		1592317515BB563F00DC1607 /* BlackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlackButton.png; sourceTree = "<group>"; };
@@ -128,10 +160,16 @@
 		1592319B15BB576600DC1607 /* titleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = titleController.h; sourceTree = "<group>"; };
 		1592319C15BB576600DC1607 /* titleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = titleController.m; sourceTree = "<group>"; };
 		1592319E15BB5FB400DC1607 /* Palgwe 1 - Grand Master Park.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Palgwe 1 - Grand Master Park.mp4"; sourceTree = "<group>"; };
-		1592319F15BB5FB400DC1607 /* taeguk1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = taeguk1.mp4; sourceTree = "<group>"; };
 		159231A215BB602C00DC1607 /* FormsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormsViewController.h; sourceTree = "<group>"; };
 		159231A315BB602C00DC1607 /* FormsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormsViewController.m; sourceTree = "<group>"; };
 		159231A515BB613F00DC1607 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		1597922115BC5F2D00866685 /* purplebutton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purplebutton1.png; sourceTree = "<group>"; };
+		1597922415BC5F7300866685 /* orangebutton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangebutton1.png; sourceTree = "<group>"; };
+		1597922615BC5FD300866685 /* yellowbutton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowbutton1.png; sourceTree = "<group>"; };
+		1597922815BC605400866685 /* brownbutton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brownbutton1.png; sourceTree = "<group>"; };
+		15D3C40415BC1E0700E50D0C /* Yin_yang-1-.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Yin_yang-1-.png"; sourceTree = "<group>"; };
+		15D3C40B15BC340600E50D0C /* Notes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notes.h; sourceTree = "<group>"; };
+		15D3C40C15BC340600E50D0C /* Notes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notes.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +177,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1583A1B315BBBBCB004ACA41 /* AVFoundation.framework in Frameworks */,
 				155D790915BB7BCA0030FFC9 /* QuartzCore.framework in Frameworks */,
 				1575B62115BB1462007AAE74 /* OpenGLES.framework in Frameworks */,
 				159231A615BB613F00DC1607 /* MediaPlayer.framework in Frameworks */,
@@ -172,6 +211,7 @@
 		1575B61715BB1462007AAE74 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1583A1B215BBBBCB004ACA41 /* AVFoundation.framework */,
 				155D790815BB7BCA0030FFC9 /* QuartzCore.framework */,
 				159231A515BB613F00DC1607 /* MediaPlayer.framework */,
 				1575B61815BB1462007AAE74 /* UIKit.framework */,
@@ -186,6 +226,8 @@
 		1575B62215BB1462007AAE74 /* Taekwondo */ = {
 			isa = PBXGroup;
 			children = (
+				15D3C40B15BC340600E50D0C /* Notes.h */,
+				15D3C40C15BC340600E50D0C /* Notes.m */,
 				155D791615BB7DBF0030FFC9 /* EAGLView.h */,
 				155D791715BB7DBF0030FFC9 /* EAGLView.m */,
 				155D791815BB7DBF0030FFC9 /* ES2Renderer.h */,
@@ -212,7 +254,8 @@
 				1592316F15BB4EE800DC1607 /* DietPlan.m */,
 				159231A215BB602C00DC1607 /* FormsViewController.h */,
 				159231A315BB602C00DC1607 /* FormsViewController.m */,
-				1592317015BB4EE800DC1607 /* DietPlan.xib */,
+				1542AE6915BC74F70050F094 /* BuyGear.h */,
+				1542AE6A15BC74F70050F094 /* BuyGear.m */,
 				1575B63415BB1462007AAE74 /* Shader.fsh */,
 				1575B63615BB1462007AAE74 /* Shader.vsh */,
 				1575B62315BB1462007AAE74 /* Supporting Files */,
@@ -223,6 +266,15 @@
 		1575B62315BB1462007AAE74 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1597922115BC5F2D00866685 /* purplebutton1.png */,
+				1597922415BC5F7300866685 /* orangebutton1.png */,
+				1597922615BC5FD300866685 /* yellowbutton1.png */,
+				1597922815BC605400866685 /* brownbutton1.png */,
+				1542AE6C15BC75A40050F094 /* redbutton1.png */,
+				1583A1A215BBAD0D004ACA41 /* character.fsh */,
+				1583A1A315BBAD0E004ACA41 /* character.vsh */,
+				1583A1A415BBAD0E004ACA41 /* reflect.fsh */,
+				1583A1A515BBAD0E004ACA41 /* reflect.vsh */,
 				155D790315BB77E60030FFC9 /* demon.png */,
 				155D790415BB77E60030FFC9 /* demon.model */,
 				155D790515BB77E60030FFC9 /* OSXGLEssentials-Info.plist */,
@@ -236,13 +288,14 @@
 				155D78F815BB77110030FFC9 /* matrixUtil.h */,
 				155D78F915BB77110030FFC9 /* imageUtil.m */,
 				155D78FA15BB77110030FFC9 /* imageUtil.h */,
-				155D78FB15BB77110030FFC9 /* glUtil.h */,
+				1583A19615BB9A39004ACA41 /* glUtil.h */,
 				155D78FC15BB77110030FFC9 /* OSXGLEssentials_Prefix.pch */,
 				1575B62415BB1462007AAE74 /* Taekwondo-Info.plist */,
 				1575B62515BB1462007AAE74 /* InfoPlist.strings */,
 				1592317315BB563F00DC1607 /* BabyBlueButtonActive.png */,
 				1592317415BB563F00DC1607 /* BabyOrangeButtonActive.png */,
 				1592317515BB563F00DC1607 /* BlackButton.png */,
+				15D3C40415BC1E0700E50D0C /* Yin_yang-1-.png */,
 				1592317615BB563F00DC1607 /* BlackButtonNoShadow.png */,
 				1592317715BB563F00DC1607 /* blueandgreen.png */,
 				1592317815BB563F00DC1607 /* BlueGraident.png */,
@@ -263,7 +316,8 @@
 				1575B62815BB1462007AAE74 /* main.m */,
 				1575B62A15BB1462007AAE74 /* Taekwondo-Prefix.pch */,
 				1592319E15BB5FB400DC1607 /* Palgwe 1 - Grand Master Park.mp4 */,
-				1592319F15BB5FB400DC1607 /* taeguk1.mp4 */,
+				1583A1B015BBBA8C004ACA41 /* test.MOV */,
+				1583A1AE15BBB722004ACA41 /* taeguk1.m4v */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -318,12 +372,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1583A1AA15BBAD3D004ACA41 /* character.fsh in Resources */,
+				1583A1AB15BBAD3D004ACA41 /* character.vsh in Resources */,
+				1583A1AC15BBAD3D004ACA41 /* reflect.fsh in Resources */,
+				1583A1AD15BBAD3D004ACA41 /* reflect.vsh in Resources */,
+				1583A1A015BBAC93004ACA41 /* demon.png in Resources */,
+				1583A1A115BBAC93004ACA41 /* demon.model in Resources */,
 				1575B62715BB1462007AAE74 /* InfoPlist.strings in Resources */,
 				1575B63015BB1462007AAE74 /* MainStoryboard_iPhone.storyboard in Resources */,
 				1575B63315BB1462007AAE74 /* MainStoryboard_iPad.storyboard in Resources */,
 				1575B63515BB1462007AAE74 /* Shader.fsh in Resources */,
 				1575B63715BB1462007AAE74 /* Shader.vsh in Resources */,
-				1592317215BB4EE900DC1607 /* DietPlan.xib in Resources */,
 				1592318715BB564000DC1607 /* BabyBlueButtonActive.png in Resources */,
 				1592318815BB564000DC1607 /* BabyOrangeButtonActive.png in Resources */,
 				1592318915BB564000DC1607 /* BlackButton.png in Resources */,
@@ -345,7 +404,14 @@
 				1592319915BB564000DC1607 /* ShinyGreenButton.png in Resources */,
 				1592319A15BB564000DC1607 /* UIAlertSheetDefaultBackground.png in Resources */,
 				159231A015BB5FB400DC1607 /* Palgwe 1 - Grand Master Park.mp4 in Resources */,
-				159231A115BB5FB400DC1607 /* taeguk1.mp4 in Resources */,
+				1583A1AF15BBB722004ACA41 /* taeguk1.m4v in Resources */,
+				1583A1B115BBBA8C004ACA41 /* test.MOV in Resources */,
+				15D3C40515BC1E0700E50D0C /* Yin_yang-1-.png in Resources */,
+				1597922215BC5F2D00866685 /* purplebutton1.png in Resources */,
+				1597922515BC5F7400866685 /* orangebutton1.png in Resources */,
+				1597922715BC5FD300866685 /* yellowbutton1.png in Resources */,
+				1597922915BC605500866685 /* brownbutton1.png in Resources */,
+				1542AE6D15BC75A40050F094 /* redbutton1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +431,16 @@
 				1592319D15BB576600DC1607 /* titleController.m in Sources */,
 				159231A415BB602C00DC1607 /* FormsViewController.m in Sources */,
 				155D78EC15BB752A0030FFC9 /* TechniqueViewController.m in Sources */,
+				1583A19815BBA530004ACA41 /* EAGLView.m in Sources */,
+				1583A19915BBA5C2004ACA41 /* ES2Renderer.m in Sources */,
+				1583A19A15BBA5F1004ACA41 /* OpenGLRenderer.m in Sources */,
+				1583A19B15BBA686004ACA41 /* matrixUtil.c in Sources */,
+				1583A19C15BBA708004ACA41 /* modelUtil.c in Sources */,
+				1583A19D15BBA926004ACA41 /* imageUtil.m in Sources */,
+				1583A19E15BBAB04004ACA41 /* sourceUtil.c in Sources */,
+				1583A19F15BBAB37004ACA41 /* vectorUtil.c in Sources */,
+				15D3C40D15BC340600E50D0C /* Notes.m in Sources */,
+				1542AE6B15BC74F70050F094 /* BuyGear.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,15 +524,22 @@
 		1575B63E15BB1463007AAE74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Taekwondo/Taekwondo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					ESSENTIAL_GL_PRACTICES_IOS,
+				);
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = "Taekwondo/Taekwondo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;

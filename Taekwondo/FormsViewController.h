@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <MediaPlayer/MediaPlayer.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface FormsViewController : UIViewController <MPMediaPickerControllerDelegate>
+
+@interface FormsViewController : UIViewController
 
 - (IBAction)playVideo1:(id)sender;
 @end

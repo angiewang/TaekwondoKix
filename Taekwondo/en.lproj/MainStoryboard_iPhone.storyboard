@@ -1,39 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="UaT-Of-K1n">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2549" systemVersion="12A269" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="UaT-Of-K1n">
     <dependencies>
-        <deployment defaultVersion="1296" identifier="iOS"/>
-        <development defaultVersion="4200" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
+        <deployment version="1296" defaultVersion="1296" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1498"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="5">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
                 <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3" customClass="GLKView">
                         <rect key="frame" x="0.0" y="44" width="320" height="436"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Welcome to" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="b4U-DK-Ulh">
-                                <rect key="frame" x="29" y="74" width="262" height="63"/>
+                                <rect key="frame" x="29" y="37" width="262" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="49"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Taekwondo Kix" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="HmK-gI-SuD">
-                                <rect key="frame" x="37" y="105" width="254" height="113"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Taekwondo Kix!" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="HmK-gI-SuD">
+                                <rect key="frame" x="31" y="87" width="258" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="74"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="nU8-JL-CNS">
-                                <rect key="frame" x="37" y="246" width="246" height="162"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="nU8-JL-CNS">
+                                <rect key="frame" x="33" y="194" width="249" height="222"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
-                                <state key="normal" title="BEGIN THE JOURNEY">
+                                <state key="normal" title="BEGIN THE JOURNEY" backgroundImage="Yin_yang-1-.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -45,31 +44,31 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.64006469784905562" green="0.81425084894833066" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="Eza-Qz-tre"/>
                     <connections>
                         <outlet property="beginTheJourney" destination="nU8-JL-CNS" id="wTK-rp-qxK"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1553" y="-214"/>
+            <point key="canvasLocation" x="1302" y="70"/>
         </scene>
         <!--Menu-->
         <scene sceneID="UrY-9I-xc0">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fd5-LS-fId" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="6P1-jk-qMB" customClass="Menu" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="I43-1e-gEB">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="436"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hRh-SD-2H1">
-                                <rect key="frame" x="18" y="28" width="280" height="42"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="hRh-SD-2H1" customClass="A">
+                                <rect key="frame" x="0.0" y="33" width="320" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="About">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="15"/>
+                                <state key="normal" title="About" backgroundImage="NavyBlueNoShadow.png">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="highlighted">
@@ -80,11 +79,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WTB-Q6-YQm">
-                                <rect key="frame" x="18" y="96" width="280" height="42"/>
+                                <rect key="frame" x="0.0" y="97" width="320" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Forms">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="16"/>
+                                <state key="normal" title="Forms" backgroundImage="lightBlue.png">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="highlighted">
@@ -95,11 +94,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LYZ-7p-QKb">
-                                <rect key="frame" x="18" y="166" width="280" height="42"/>
+                                <rect key="frame" x="0.0" y="159" width="320" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Techniques">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="15"/>
+                                <state key="normal" title="Techniques" backgroundImage="NavyBlueNoShadow.png">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="highlighted">
@@ -110,23 +109,26 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bBw-iJ-0qK">
-                                <rect key="frame" x="18" y="235" width="280" height="42"/>
+                                <rect key="frame" x="0.0" y="222" width="320" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Diet Plan and Notes">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="16"/>
+                                <state key="normal" title="Diet Plan and Notes" backgroundImage="lightBlue.png">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="YW5-Qi-m4f" kind="push" id="hHX-Uz-Saz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Spe-lF-djK">
-                                <rect key="frame" x="20" y="307" width="280" height="42"/>
+                                <rect key="frame" x="0.0" y="283" width="320" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Calendar">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="16"/>
+                                <state key="normal" title="Calendar" backgroundImage="NavyBlueNoShadow.png">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="highlighted">
@@ -134,11 +136,11 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4WF-Am-voc">
-                                <rect key="frame" x="18" y="382" width="280" height="42"/>
+                                <rect key="frame" x="0.0" y="348" width="320" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Donate or Buy Gear">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="16"/>
+                                <state key="normal" title="Donate or Buy Gear" backgroundImage="lightBlue.png">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="highlighted">
@@ -155,13 +157,13 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <nil key="simulatedDestinationMetrics"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fd5-LS-fId" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2118" y="404"/>
+            <point key="canvasLocation" x="1746" y="92"/>
         </scene>
         <!--About-->
         <scene sceneID="feL-9U-HMz">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zsI-vk-TTc" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="1d4-n7-bjq" customClass="About" sceneMemberID="viewController">
                     <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="9rQ-H2-KO9">
                         <rect key="frame" x="0.0" y="20" width="320" height="460"/>
@@ -174,8 +176,8 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="buf-70-Ye8">
-                                <rect key="frame" x="14" y="44" width="280" height="347"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="buf-70-Ye8">
+                                <rect key="frame" x="14" y="44" width="280" height="396"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">Taekwondo (태권도; 跆拳道; Korean pronunciation: [tʰɛk͈wʌndo]; /taɪ.kwɒn.doʊ/) is a Korean martial art and the national sport of South Korea. In Korean, tae (태, 跆) means "to strike or break with foot"; kwon (권, 拳) means "to strike or break with fist"; and do (도, 道) means "way", "method", or "path". Thus, taekwondo may be loosely translated as "the way of the hand and the foot." It combines combat techniques, self-defense, sport, exercise, and in some cases meditation and philosophy. In 1989, Taekwondo was the world's most popular martial art in terms of number of practitioners.Gyeorugi (pronounced [ɡjʌɾuɡi]), a type of sparring, has been an Olympic event since 2000.
@@ -183,7 +185,7 @@
 There are two main branches of taekwondo development, which are not necessarily mutually exclusive:
 
 "Traditional taekwondo" typically refers to the martial art as it was established in the 1950s and 1960s in the South Korean military, and in various civilian organisations, including schools and universities. In particular, the names and symbolism of the traditional patterns often refer to elements of Korean history, culture and religious philosophy. Today, the Kukkiwon, or World Taekwondo Headquarters is the traditional center for Taekwondo in Korea.
-"Sport taekwondo" has developed in the decades since the 1950s and may have a somewhat different focus, especially in terms of its emphasis on speed and competition (as in Olympic sparring). Sport taekwondo is in turn subdivided into two main styles; one derives from Kukkiwon, the source of the sparring system sihap gyeorugi which is now an event at the summer Olympic Games and which is governed by the World Taekwondo Federation (WTF). The other comes from the International Taekwon-Do Federation (ITF).[3]
+"Sport taekwondo" has developed in the decades since the 1950s and may have a somewhat different focus, especially in terms of its emphasis on speed and competition (as in Olympic sparring). Sport taekwondo is in turn subdivided into two main styles; one derives from Kukkiwon, the source of the sparring system sihap gyeorugi which is now an event at the summer Olympic Games and which is governed by the World Taekwondo Federation (WTF). The other comes from the International Taekwon-Do Federation (ITF).
 Although there are doctrinal and technical differences between the two main styles and among the various organizations, the art in general emphasizes kicks thrown from a mobile stance, employing the leg's greater reach and power (compared to the arm). Taekwondo training generally includes a system of blocks, kicks, punches, and open-handed strikes and may also include various take-downs or sweeps, throws, and joint locks. Some taekwondo instructors also incorporate the use of pressure points, known as jiapsul, as well as grabbing self-defense techniques borrowed from other martial arts, such as hapkido and judo.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -197,13 +199,13 @@ Although there are doctrinal and technical differences between the two main styl
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <nil key="simulatedDestinationMetrics"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zsI-vk-TTc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2535" y="-151"/>
+            <point key="canvasLocation" x="2261" y="75"/>
         </scene>
         <!--Forms View Controller-->
         <scene sceneID="aZV-Kx-fbd">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xpU-Vf-EvV" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="mWj-nJ-dqi" customClass="FormsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vvn-ih-Fnr">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="436"/>
@@ -214,9 +216,9 @@ Although there are doctrinal and technical differences between the two main styl
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ocg-NS-i1b">
-                                        <rect key="frame" x="20" y="22" width="123" height="39"/>
+                                        <rect key="frame" x="19" y="19" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
                                         <state key="normal" title="Taeguk 1">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -228,185 +230,230 @@ Although there are doctrinal and technical differences between the two main styl
                                             <action selector="playVideo1:" destination="mWj-nJ-dqi" eventType="touchUpInside" id="7fd-2F-kMp"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ZRQ-jB-7IK">
-                                        <rect key="frame" x="177" y="22" width="123" height="39"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PjX-4i-6kg">
+                                        <rect key="frame" x="20" y="68" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                        <state key="normal" title="Palgwe 1">
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                        <state key="normal" title="Taeguk 1" backgroundImage="yellowbutton1.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="playVideo1:" destination="mWj-nJ-dqi" eventType="touchUpInside" id="fL0-LR-2bE"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="S8Q-tV-eG5">
-                                        <rect key="frame" x="20" y="73" width="123" height="39"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="99N-y5-SoM">
+                                        <rect key="frame" x="19" y="118" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                        <state key="normal" title="Taeguk 2">
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                        <state key="normal" title="Taeguk 1" backgroundImage="OrangeButton.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="playVideo1:" destination="mWj-nJ-dqi" eventType="touchUpInside" id="ca0-KL-ACq"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="26n-pD-Zvy">
-                                        <rect key="frame" x="177" y="73" width="123" height="39"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VwJ-2z-mvr">
+                                        <rect key="frame" x="20" y="174" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                        <state key="normal" title="Palgwe 2">
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                        <state key="normal" title="Taeguk 1" backgroundImage="ShinyGreenButton.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="playVideo1:" destination="mWj-nJ-dqi" eventType="touchUpInside" id="gnu-mP-rTS"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dck-AY-aEf">
-                                        <rect key="frame" x="20" y="123" width="123" height="39"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rIY-1K-G6F">
+                                        <rect key="frame" x="19" y="226" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                        <state key="normal" title="Taeguk 3">
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                        <state key="normal" title="Taeguk 1" backgroundImage="purplebutton1.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="playVideo1:" destination="mWj-nJ-dqi" eventType="touchUpInside" id="hgl-yM-D0y"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lnF-rt-fel">
-                                        <rect key="frame" x="177" y="123" width="123" height="39"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="NOj-CP-XCl">
+                                        <rect key="frame" x="20" y="278" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                        <state key="normal" title="Palgwe 3">
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                        <state key="normal" title="Taeguk 1" backgroundImage="NavyBlueNoShadow.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="playVideo1:" destination="mWj-nJ-dqi" eventType="touchUpInside" id="fsA-c8-Ge1"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ggk-lB-Bc1">
-                                        <rect key="frame" x="20" y="174" width="123" height="39"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wN3-t8-A5o">
+                                        <rect key="frame" x="20" y="330" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                        <state key="normal" title="Taeguk 4">
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                        <state key="normal" title="Taeguk 1" backgroundImage="brownbutton1.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="playVideo1:" destination="mWj-nJ-dqi" eventType="touchUpInside" id="4wi-vu-77y"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jYL-mZ-4Hr">
-                                        <rect key="frame" x="177" y="174" width="123" height="39"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TMI-iQ-40f">
+                                        <rect key="frame" x="20" y="382" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                        <state key="normal" title="Palgwe 4">
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                        <state key="normal" title="Taeguk 1" backgroundImage="redbutton1.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="playVideo1:" destination="mWj-nJ-dqi" eventType="touchUpInside" id="4p2-Sf-k3R"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="IJA-YY-aLu">
-                                        <rect key="frame" x="20" y="223" width="123" height="39"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DV3-nw-Os4">
+                                        <rect key="frame" x="174" y="19" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                        <state key="normal" title="Taeguk 5">
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                        <state key="normal" title="Taeguk 1">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="playVideo1:" destination="mWj-nJ-dqi" eventType="touchUpInside" id="4Qy-Yy-UDv"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Fyz-XV-go6">
-                                        <rect key="frame" x="177" y="223" width="123" height="39"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bUq-Te-J5q">
+                                        <rect key="frame" x="174" y="68" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                        <state key="normal" title="Palgwe 5">
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                        <state key="normal" title="Taeguk 1" backgroundImage="yellowbutton1.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="playVideo1:" destination="mWj-nJ-dqi" eventType="touchUpInside" id="a9q-1p-grl"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yaA-vs-sNd">
-                                        <rect key="frame" x="20" y="274" width="123" height="39"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RU1-DX-F4c">
+                                        <rect key="frame" x="174" y="118" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                        <state key="normal" title="Taeguk 6">
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                        <state key="normal" title="Taeguk 1" backgroundImage="OrangeButton.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="playVideo1:" destination="mWj-nJ-dqi" eventType="touchUpInside" id="ffG-7Q-rD7"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7D3-0C-ARG">
-                                        <rect key="frame" x="177" y="274" width="123" height="39"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="N0p-n8-OaQ">
+                                        <rect key="frame" x="174" y="174" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                        <state key="normal" title="Palgwe 6">
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                        <state key="normal" title="Taeguk 1" backgroundImage="ShinyGreenButton.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="playVideo1:" destination="mWj-nJ-dqi" eventType="touchUpInside" id="WF8-Uq-Eas"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HgD-GK-Zbe">
-                                        <rect key="frame" x="20" y="324" width="123" height="39"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SZk-Xk-lCV">
+                                        <rect key="frame" x="174" y="226" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                        <state key="normal" title="Taeguk 7">
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                        <state key="normal" title="Taeguk 1" backgroundImage="purplebutton1.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="playVideo1:" destination="mWj-nJ-dqi" eventType="touchUpInside" id="OTX-OY-cCE"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="IE1-gR-rAy">
-                                        <rect key="frame" x="177" y="324" width="123" height="39"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uPx-my-smI">
+                                        <rect key="frame" x="174" y="278" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                        <state key="normal" title="Palgwe 7">
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                        <state key="normal" title="Taeguk 1" backgroundImage="NavyBlueNoShadow.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="playVideo1:" destination="mWj-nJ-dqi" eventType="touchUpInside" id="GuG-TO-tn4"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XZj-Xw-0VZ">
-                                        <rect key="frame" x="20" y="375" width="123" height="39"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hxy-DV-aaR">
+                                        <rect key="frame" x="174" y="330" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                        <state key="normal" title="Taeguk 8">
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                        <state key="normal" title="Taeguk 1" backgroundImage="brownbutton1.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="playVideo1:" destination="mWj-nJ-dqi" eventType="touchUpInside" id="vAo-jy-BGV"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JGC-mP-3eh">
-                                        <rect key="frame" x="177" y="375" width="123" height="39"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="x0Q-Fn-oN5">
+                                        <rect key="frame" x="174" y="382" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                        <state key="normal" title="Palgwe 8">
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
+                                        <state key="normal" title="Taeguk 1" backgroundImage="redbutton1.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="playVideo1:" destination="mWj-nJ-dqi" eventType="touchUpInside" id="0VG-9I-8U8"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </scrollView>
@@ -415,55 +462,324 @@ Although there are doctrinal and technical differences between the two main styl
                     </view>
                     <navigationItem key="navigationItem" id="aJ5-Zb-mW1"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xpU-Vf-EvV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2316" y="1186"/>
+            <point key="canvasLocation" x="1302" y="744"/>
         </scene>
         <!--Technique View Controller-->
         <scene sceneID="Y9O-id-2MU">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TmH-bh-RyA" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="xmN-0A-cVx" customClass="TechniqueViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="AKh-qe-m6Y">
+                    <view key="view" contentMode="scaleToFill" id="AKh-qe-m6Y" customClass="EAGLView">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="436"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" id="3Da-nL-Qxg" customClass="EAGLView">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="436"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                            </view>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="23Z-jd-kvm"/>
                     <connections>
-                        <outlet property="glView" destination="3Da-nL-Qxg" id="fRz-Z6-ri1"/>
+                        <outlet property="glView" destination="AKh-qe-m6Y" id="xzT-0C-4su"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TmH-bh-RyA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2714" y="1019"/>
+            <point key="canvasLocation" x="1756" y="750"/>
         </scene>
-        <!--Navigation Controller - Item-->
-        <scene sceneID="aKY-cD-vqC">
+        <!--Notes-->
+        <scene sceneID="aPM-Mn-iTH">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Q0F-yp-QhA" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <navigationController id="OGq-Sv-XTr" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="b0i-10-TLm"/>
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" id="Mz6-Wk-SJO"/>
-                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="LdZ-Q3-5jv">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                </navigationController>
+                <viewController id="YW5-Qi-m4f" customClass="Notes" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="njV-xj-erv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="436"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="eIK-gd-eow">
+                                <rect key="frame" x="15" y="54" width="291" height="362"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Charyeot (차렷) - Attention
+Kyungye	 (경례) - Bow
+Baro (바로) -	Return
+Shiut (쉬어) - At ease (relax)
+Hyushik	(휴식) - Rest period (break)
+Kiap (기합) - Yell (shout)
+Joonbi (준비) - Ready
+Shijak (시작) - Begin (start)
+Gallyeo (갈려) - Break (separate)
+Gyesok	(계속) - Continue
+Keuman	 (그만) - Finish (stop)
+Dwiro dora (뒤로 돌아 ) - Turn around (180 degrees)
+Haego hada (해고하다) - Dismiss
+
+Click to add more notes</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <attributedString key="userComments">
+                                    <fragment content="Charyeot (">
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="Chalkduster"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="차렷">
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="AppleGothic"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">) - Attention
+Kyungye	 (</string>
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="Chalkduster"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="경례">
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="AppleGothic"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">) - Bow
+Baro (</string>
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="Chalkduster"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="바로">
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="AppleGothic"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">) -	Return
+Shiut (</string>
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="Chalkduster"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="쉬어">
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="AppleGothic"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">) - At ease (relax)
+Hyushik	(</string>
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="Chalkduster"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="휴식">
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="AppleGothic"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">) - Rest period (break)
+Kiap (</string>
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="Chalkduster"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="기합">
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="AppleGothic"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">) - Yell (shout)
+Joonbi (</string>
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="Chalkduster"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="준비">
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="AppleGothic"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">) - Ready
+Shijak (</string>
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="Chalkduster"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="시작">
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="AppleGothic"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">) - Begin (start)
+Gallyeo (</string>
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="Chalkduster"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="갈려">
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="AppleGothic"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">) - Break (separate)
+Gyesok	(</string>
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="Chalkduster"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="계속">
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="AppleGothic"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">) - Continue
+Keuman	 (</string>
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="Chalkduster"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="그만">
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="AppleGothic"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">) - Finish (stop)
+Dwiro dora (</string>
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="Chalkduster"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="뒤로">
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="AppleGothic"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="Chalkduster"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="돌아">
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="AppleGothic"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> ) - Turn around (180 degrees)
+Haego hada (</string>
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="Chalkduster"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="해고하다">
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="AppleGothic"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">) - Dismiss
+
+Click to add more to "Korean Terminology"</string>
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="Chalkduster"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                            </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Korean Terminology" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9Zt-VG-ZcV">
+                                <rect key="frame" x="76" y="14" width="168" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <attributedString key="userComments">
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <font key="NSFont" size="21" name="Chalkduster"/>
+                                            <font key="NSOriginalFont" size="11" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Terminologies">
+                                        <attributes>
+                                            <font key="NSFont" size="21" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="sYQ-tf-TxE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fqD-t4-6fb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2706" y="467"/>
+            <point key="canvasLocation" x="2261" y="756"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="aAM-2s-oao">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="udv-CX-SwM" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="UaT-Of-K1n" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="Nnj-SS-fiN"/>
@@ -476,10 +792,22 @@ Although there are doctrinal and technical differences between the two main styl
                         <segue destination="2" kind="relationship" relationship="rootViewController" id="WLi-fX-Yd7"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="udv-CX-SwM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="924" y="70"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="NavyBlueNoShadow.png" width="320" height="80"/>
+        <image name="OrangeButton.png" width="320" height="80"/>
+        <image name="ShinyGreenButton.png" width="320" height="80"/>
+        <image name="Yin_yang-1-.png" width="300" height="300"/>
+        <image name="brownbutton1.png" width="299" height="123"/>
+        <image name="lightBlue.png" width="800" height="132"/>
+        <image name="purplebutton1.png" width="495" height="168"/>
+        <image name="redbutton1.png" width="495" height="168"/>
+        <image name="yellowbutton1.png" width="496" height="168"/>
+    </resources>
     <classes>
         <class className="About" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/About.h"/>
@@ -495,6 +823,9 @@ Although there are doctrinal and technical differences between the two main styl
         </class>
         <class className="Menu" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/Menu.h"/>
+        </class>
+        <class className="Notes" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/Notes.h"/>
         </class>
         <class className="TechniqueViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TechniqueViewController.h"/>

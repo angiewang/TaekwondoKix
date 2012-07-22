@@ -7,6 +7,7 @@
 //
 
 #import "TechniqueViewController.h"
+#import "EAGLView.h"
 
 @interface TechniqueViewController ()
 
@@ -29,6 +30,11 @@
 {
     [super viewDidLoad];
     
+//    EAGLView *myEAGLView = [EAGLView new];
+//    
+//    self.view = myEAGLView;
+//    self.glView = myEAGLView;
+    
 	// Do any additional setup after loading the view.
 }
 
@@ -37,6 +43,17 @@
     [super viewWillAppear:animated];
     
     self.navigationController.navigationBarHidden = NO;
+}
+
+-(void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    //self.glView = [[EAGLView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    
+    //[self.view addSubview:glView];
+    
+    [glView startAnimation];
 }
 
 - (void)viewDidUnload

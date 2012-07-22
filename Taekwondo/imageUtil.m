@@ -69,9 +69,7 @@ demoImage* imgLoadImage(const char* filepathname, int flipVertical)
 	CGImageRef cgImage = imageClass.CGImage;
 	if (!cgImage)
 	{ 
-		[filepathString release];
-		[imageClass release];
-		return NULL;
+		return nil;
 	}
 	
 	demoImage* image = malloc(sizeof(demoImage));
@@ -94,15 +92,11 @@ demoImage* imgLoadImage(const char* filepathname, int flipVertical)
 	
 	if(NULL == image->data)
 	{
-		[filepathString release];
-		[imageClass release];
 		
 		imgDestroyImage(image);
 		return NULL;
 	}
-	
-	[filepathString release];
-	[imageClass release];	
+		
 	
 	return image;
 }

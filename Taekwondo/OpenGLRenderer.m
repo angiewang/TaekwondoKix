@@ -1116,8 +1116,7 @@ static GLsizei GetGLTypeSize(GLenum type)
 	
 	mdlDestroyModel(m_quadModel);
 #endif // RENDER_REFLECTION
-	
-	[super dealloc];	
+
 }
 
 @end

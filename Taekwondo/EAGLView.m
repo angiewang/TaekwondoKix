@@ -77,7 +77,6 @@
         
         if (!m_context || ![EAGLContext setCurrentContext:m_context])
 		{
-			[self release];
 			return nil;
 		}
 		
@@ -85,7 +84,6 @@
 		
 		if (!m_renderer)
 		{
-			[self release];
 			return nil;
 		}
         
@@ -186,16 +184,9 @@
 
 - (void) dealloc
 {
-    [m_renderer release];
-	
-	
 	// tear down context
 	if ([EAGLContext currentContext] == m_context)
         [EAGLContext setCurrentContext:nil];
-	
-	[m_context release];
-	
-    [super dealloc];
 }
 
 @end

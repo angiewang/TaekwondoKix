@@ -234,7 +234,7 @@ Although there are doctrinal and technical differences between the two main styl
                                         <rect key="frame" x="20" y="68" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
-                                        <state key="normal" title="Taeguk 1" backgroundImage="yellowbutton1.png">
+                                        <state key="normal" title="Taeguk 2" backgroundImage="yellowbutton1.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -249,7 +249,7 @@ Although there are doctrinal and technical differences between the two main styl
                                         <rect key="frame" x="19" y="118" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
-                                        <state key="normal" title="Taeguk 1" backgroundImage="OrangeButton.png">
+                                        <state key="normal" title="Taeguk 3" backgroundImage="OrangeButton.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -264,7 +264,7 @@ Although there are doctrinal and technical differences between the two main styl
                                         <rect key="frame" x="20" y="174" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
-                                        <state key="normal" title="Taeguk 1" backgroundImage="ShinyGreenButton.png">
+                                        <state key="normal" title="Taeguk 4" backgroundImage="ShinyGreenButton.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -279,7 +279,7 @@ Although there are doctrinal and technical differences between the two main styl
                                         <rect key="frame" x="19" y="226" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
-                                        <state key="normal" title="Taeguk 1" backgroundImage="purplebutton1.png">
+                                        <state key="normal" title="Taeguk 5" backgroundImage="purplebutton1.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -294,7 +294,7 @@ Although there are doctrinal and technical differences between the two main styl
                                         <rect key="frame" x="20" y="278" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
-                                        <state key="normal" title="Taeguk 1" backgroundImage="NavyBlueNoShadow.png">
+                                        <state key="normal" title="Taeguk 6" backgroundImage="NavyBlueNoShadow.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -309,7 +309,7 @@ Although there are doctrinal and technical differences between the two main styl
                                         <rect key="frame" x="20" y="330" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
-                                        <state key="normal" title="Taeguk 1" backgroundImage="brownbutton1.png">
+                                        <state key="normal" title="Taeguk 7" backgroundImage="brownbutton1.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -324,7 +324,7 @@ Although there are doctrinal and technical differences between the two main styl
                                         <rect key="frame" x="20" y="382" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
-                                        <state key="normal" title="Taeguk 1" backgroundImage="redbutton1.png">
+                                        <state key="normal" title="Taeguk 8" backgroundImage="redbutton1.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -339,7 +339,7 @@ Although there are doctrinal and technical differences between the two main styl
                                         <rect key="frame" x="174" y="19" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
-                                        <state key="normal" title="Taeguk 1">
+                                        <state key="normal" title="Palgwe 1">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -354,7 +354,7 @@ Although there are doctrinal and technical differences between the two main styl
                                         <rect key="frame" x="174" y="68" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
-                                        <state key="normal" title="Taeguk 1" backgroundImage="yellowbutton1.png">
+                                        <state key="normal" title="Palgwe 2" backgroundImage="yellowbutton1.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -369,7 +369,7 @@ Although there are doctrinal and technical differences between the two main styl
                                         <rect key="frame" x="174" y="118" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
-                                        <state key="normal" title="Taeguk 1" backgroundImage="OrangeButton.png">
+                                        <state key="normal" title="Palgwe 3" backgroundImage="OrangeButton.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -384,7 +384,7 @@ Although there are doctrinal and technical differences between the two main styl
                                         <rect key="frame" x="174" y="174" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
-                                        <state key="normal" title="Taeguk 1" backgroundImage="ShinyGreenButton.png">
+                                        <state key="normal" title="Palgwe 4" backgroundImage="ShinyGreenButton.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -399,7 +399,7 @@ Although there are doctrinal and technical differences between the two main styl
                                         <rect key="frame" x="174" y="226" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
-                                        <state key="normal" title="Taeguk 1" backgroundImage="purplebutton1.png">
+                                        <state key="normal" title="Palgwe 5" backgroundImage="purplebutton1.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -414,7 +414,7 @@ Although there are doctrinal and technical differences between the two main styl
                                         <rect key="frame" x="174" y="278" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
-                                        <state key="normal" title="Taeguk 1" backgroundImage="NavyBlueNoShadow.png">
+                                        <state key="normal" title="Palgwe 6" backgroundImage="NavyBlueNoShadow.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -429,7 +429,7 @@ Although there are doctrinal and technical differences between the two main styl
                                         <rect key="frame" x="174" y="330" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
-                                        <state key="normal" title="Taeguk 1" backgroundImage="brownbutton1.png">
+                                        <state key="normal" title="Palgwe 7" backgroundImage="brownbutton1.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -444,7 +444,7 @@ Although there are doctrinal and technical differences between the two main styl
                                         <rect key="frame" x="174" y="382" width="126" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="19"/>
-                                        <state key="normal" title="Taeguk 1" backgroundImage="redbutton1.png">
+                                        <state key="normal" title="Palgwe 8" backgroundImage="redbutton1.png">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>

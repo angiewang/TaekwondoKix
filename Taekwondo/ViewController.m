@@ -8,7 +8,10 @@
 
 #import "ViewController.h"
 
+
 #define BUFFER_OFFSET(i) ((char *)NULL + (i))
+
+
 
 // Uniform index.
 enum
@@ -84,6 +87,7 @@ GLfloat gCubeVertexData[216] =
     GLuint _vertexArray;
     GLuint _vertexBuffer;
 }
+@property (weak, nonatomic) IBOutlet UIButton *beginTheJourney;
 @property (strong, nonatomic) EAGLContext *context;
 @property (strong, nonatomic) GLKBaseEffect *effect;
 
@@ -97,14 +101,16 @@ GLfloat gCubeVertexData[216] =
 @end
 
 @implementation ViewController
+@synthesize beginTheJourney = _beginTheJourney;
 
 @synthesize context = _context;
 @synthesize effect = _effect;
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+        
     self.context = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES2];
 
     if (!self.context) {
@@ -120,6 +126,7 @@ GLfloat gCubeVertexData[216] =
 
 - (void)viewDidUnload
 {    
+    [self setBeginTheJourney:nil];
     [super viewDidUnload];
     
     [self tearDownGL];
@@ -128,6 +135,13 @@ GLfloat gCubeVertexData[216] =
         [EAGLContext setCurrentContext:nil];
     }
 	self.context = nil;
+}
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    self.navigationController.navigationBarHidden = YES;
 }
 
 - (void)didReceiveMemoryWarning

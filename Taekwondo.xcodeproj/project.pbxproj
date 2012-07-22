@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		155D78EC15BB752A0030FFC9 /* TechniqueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 155D78EB15BB752A0030FFC9 /* TechniqueViewController.m */; };
+		155D790915BB7BCA0030FFC9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155D790815BB7BCA0030FFC9 /* QuartzCore.framework */; };
 		1575B61915BB1462007AAE74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1575B61815BB1462007AAE74 /* UIKit.framework */; };
 		1575B61B15BB1462007AAE74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1575B61A15BB1462007AAE74 /* Foundation.framework */; };
 		1575B61D15BB1462007AAE74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1575B61C15BB1462007AAE74 /* CoreGraphics.framework */; };
@@ -20,27 +22,116 @@
 		1575B63515BB1462007AAE74 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 1575B63415BB1462007AAE74 /* Shader.fsh */; };
 		1575B63715BB1462007AAE74 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 1575B63615BB1462007AAE74 /* Shader.vsh */; };
 		1575B63A15BB1462007AAE74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1575B63915BB1462007AAE74 /* ViewController.m */; };
+		1575B69215BB2263007AAE74 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1575B69015BB2263007AAE74 /* Menu.m */; };
+		1575B69F15BB2538007AAE74 /* About.m in Sources */ = {isa = PBXBuildFile; fileRef = 1575B69D15BB2537007AAE74 /* About.m */; };
+		1592317115BB4EE900DC1607 /* DietPlan.m in Sources */ = {isa = PBXBuildFile; fileRef = 1592316F15BB4EE800DC1607 /* DietPlan.m */; };
+		1592317215BB4EE900DC1607 /* DietPlan.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1592317015BB4EE800DC1607 /* DietPlan.xib */; };
+		1592318715BB564000DC1607 /* BabyBlueButtonActive.png in Resources */ = {isa = PBXBuildFile; fileRef = 1592317315BB563F00DC1607 /* BabyBlueButtonActive.png */; };
+		1592318815BB564000DC1607 /* BabyOrangeButtonActive.png in Resources */ = {isa = PBXBuildFile; fileRef = 1592317415BB563F00DC1607 /* BabyOrangeButtonActive.png */; };
+		1592318915BB564000DC1607 /* BlackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1592317515BB563F00DC1607 /* BlackButton.png */; };
+		1592318A15BB564000DC1607 /* BlackButtonNoShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 1592317615BB563F00DC1607 /* BlackButtonNoShadow.png */; };
+		1592318B15BB564000DC1607 /* blueandgreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1592317715BB563F00DC1607 /* blueandgreen.png */; };
+		1592318C15BB564000DC1607 /* BlueGraident.png in Resources */ = {isa = PBXBuildFile; fileRef = 1592317815BB563F00DC1607 /* BlueGraident.png */; };
+		1592318D15BB564000DC1607 /* greytablecell.png in Resources */ = {isa = PBXBuildFile; fileRef = 1592317915BB563F00DC1607 /* greytablecell.png */; };
+		1592318E15BB564000DC1607 /* lightBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 1592317A15BB563F00DC1607 /* lightBlue.png */; };
+		1592318F15BB564000DC1607 /* LightGreenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1592317B15BB563F00DC1607 /* LightGreenButton.png */; };
+		1592319015BB564000DC1607 /* LightRedButtonHover.png in Resources */ = {isa = PBXBuildFile; fileRef = 1592317C15BB563F00DC1607 /* LightRedButtonHover.png */; };
+		1592319115BB564000DC1607 /* LightYellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 1592317D15BB563F00DC1607 /* LightYellow.png */; };
+		1592319215BB564000DC1607 /* limegreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1592317E15BB563F00DC1607 /* limegreen.png */; };
+		1592319315BB564000DC1607 /* NavyBlueNoShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 1592317F15BB563F00DC1607 /* NavyBlueNoShadow.png */; };
+		1592319415BB564000DC1607 /* OrangeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1592318015BB563F00DC1607 /* OrangeButton.png */; };
+		1592319515BB564000DC1607 /* OrangeShadow copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 1592318115BB563F00DC1607 /* OrangeShadow copy.png */; };
+		1592319615BB564000DC1607 /* OrangeShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 1592318215BB563F00DC1607 /* OrangeShadow.png */; };
+		1592319715BB564000DC1607 /* PinkButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1592318315BB563F00DC1607 /* PinkButton.png */; };
+		1592319815BB564000DC1607 /* pinktablecell.png in Resources */ = {isa = PBXBuildFile; fileRef = 1592318415BB563F00DC1607 /* pinktablecell.png */; };
+		1592319915BB564000DC1607 /* ShinyGreenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1592318515BB563F00DC1607 /* ShinyGreenButton.png */; };
+		1592319A15BB564000DC1607 /* UIAlertSheetDefaultBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 1592318615BB563F00DC1607 /* UIAlertSheetDefaultBackground.png */; };
+		1592319D15BB576600DC1607 /* titleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1592319C15BB576600DC1607 /* titleController.m */; };
+		159231A015BB5FB400DC1607 /* Palgwe 1 - Grand Master Park.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1592319E15BB5FB400DC1607 /* Palgwe 1 - Grand Master Park.mp4 */; };
+		159231A115BB5FB400DC1607 /* taeguk1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1592319F15BB5FB400DC1607 /* taeguk1.mp4 */; };
+		159231A415BB602C00DC1607 /* FormsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159231A315BB602C00DC1607 /* FormsViewController.m */; };
+		159231A615BB613F00DC1607 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159231A515BB613F00DC1607 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		155D78EA15BB752A0030FFC9 /* TechniqueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TechniqueViewController.h; sourceTree = "<group>"; };
+		155D78EB15BB752A0030FFC9 /* TechniqueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TechniqueViewController.m; sourceTree = "<group>"; };
+		155D78F115BB77110030FFC9 /* sourceUtil.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sourceUtil.c; sourceTree = "<group>"; };
+		155D78F215BB77110030FFC9 /* sourceUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sourceUtil.h; sourceTree = "<group>"; };
+		155D78F315BB77110030FFC9 /* vectorUtil.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = vectorUtil.c; sourceTree = "<group>"; };
+		155D78F415BB77110030FFC9 /* vectorUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vectorUtil.h; sourceTree = "<group>"; };
+		155D78F515BB77110030FFC9 /* modelUtil.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = modelUtil.c; sourceTree = "<group>"; };
+		155D78F615BB77110030FFC9 /* modelUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = modelUtil.h; sourceTree = "<group>"; };
+		155D78F715BB77110030FFC9 /* matrixUtil.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = matrixUtil.c; sourceTree = "<group>"; };
+		155D78F815BB77110030FFC9 /* matrixUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = matrixUtil.h; sourceTree = "<group>"; };
+		155D78F915BB77110030FFC9 /* imageUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imageUtil.m; sourceTree = "<group>"; };
+		155D78FA15BB77110030FFC9 /* imageUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imageUtil.h; sourceTree = "<group>"; };
+		155D78FB15BB77110030FFC9 /* glUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = glUtil.h; sourceTree = "<group>"; };
+		155D78FC15BB77110030FFC9 /* OSXGLEssentials_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSXGLEssentials_Prefix.pch; sourceTree = "<group>"; };
+		155D790115BB77340030FFC9 /* OpenGLRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLRenderer.h; sourceTree = "<group>"; };
+		155D790215BB77340030FFC9 /* OpenGLRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLRenderer.m; sourceTree = "<group>"; };
+		155D790315BB77E60030FFC9 /* demon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demon.png; sourceTree = "<group>"; };
+		155D790415BB77E60030FFC9 /* demon.model */ = {isa = PBXFileReference; lastKnownFileType = file; path = demon.model; sourceTree = "<group>"; };
+		155D790515BB77E60030FFC9 /* OSXGLEssentials-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSXGLEssentials-Info.plist"; sourceTree = "<group>"; };
+		155D790815BB7BCA0030FFC9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		155D791615BB7DBF0030FFC9 /* EAGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		155D791715BB7DBF0030FFC9 /* EAGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		155D791815BB7DBF0030FFC9 /* ES2Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ES2Renderer.h; sourceTree = "<group>"; };
+		155D791915BB7DBF0030FFC9 /* ES2Renderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ES2Renderer.m; sourceTree = "<group>"; };
+		155D791A15BB7DBF0030FFC9 /* iOSGLEssentialsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSGLEssentialsAppDelegate.h; sourceTree = "<group>"; };
+		155D791B15BB7DBF0030FFC9 /* iOSGLEssentialsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSGLEssentialsAppDelegate.m; sourceTree = "<group>"; };
 		1575B61415BB1462007AAE74 /* Taekwondo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taekwondo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1575B61815BB1462007AAE74 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1575B61A15BB1462007AAE74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1575B61C15BB1462007AAE74 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1575B61E15BB1462007AAE74 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		1575B62015BB1462007AAE74 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		1575B62415BB1462007AAE74 /* Taekwondo-Info.plist */ = {isa = PBXFileReference; path = "Taekwondo-Info.plist"; sourceTree = "<group>"; };
+		1575B62415BB1462007AAE74 /* Taekwondo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Taekwondo-Info.plist"; sourceTree = "<group>"; };
 		1575B62615BB1462007AAE74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1575B62815BB1462007AAE74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1575B62A15BB1462007AAE74 /* Taekwondo-Prefix.pch */ = {isa = PBXFileReference; path = "Taekwondo-Prefix.pch"; sourceTree = "<group>"; };
-		1575B62B15BB1462007AAE74 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1575B62A15BB1462007AAE74 /* Taekwondo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Taekwondo-Prefix.pch"; sourceTree = "<group>"; };
+		1575B62B15BB1462007AAE74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1575B62C15BB1462007AAE74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1575B62F15BB1462007AAE74 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		1575B63215BB1462007AAE74 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		1575B63415BB1462007AAE74 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
 		1575B63615BB1462007AAE74 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
-		1575B63815BB1462007AAE74 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		1575B63815BB1462007AAE74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1575B63915BB1462007AAE74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1575B68F15BB2263007AAE74 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Menu.h; path = ../Menu.h; sourceTree = "<group>"; };
+		1575B69015BB2263007AAE74 /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Menu.m; path = ../Menu.m; sourceTree = "<group>"; };
+		1575B69C15BB2537007AAE74 /* About.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = About.h; sourceTree = "<group>"; };
+		1575B69D15BB2537007AAE74 /* About.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = About.m; sourceTree = "<group>"; };
+		1592316E15BB4EE800DC1607 /* DietPlan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DietPlan.h; path = ../DietPlan.h; sourceTree = "<group>"; };
+		1592316F15BB4EE800DC1607 /* DietPlan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DietPlan.m; path = ../DietPlan.m; sourceTree = "<group>"; };
+		1592317015BB4EE800DC1607 /* DietPlan.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DietPlan.xib; path = ../DietPlan.xib; sourceTree = "<group>"; };
+		1592317315BB563F00DC1607 /* BabyBlueButtonActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BabyBlueButtonActive.png; sourceTree = "<group>"; };
+		1592317415BB563F00DC1607 /* BabyOrangeButtonActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BabyOrangeButtonActive.png; sourceTree = "<group>"; };
+		1592317515BB563F00DC1607 /* BlackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlackButton.png; sourceTree = "<group>"; };
+		1592317615BB563F00DC1607 /* BlackButtonNoShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlackButtonNoShadow.png; sourceTree = "<group>"; };
+		1592317715BB563F00DC1607 /* blueandgreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueandgreen.png; sourceTree = "<group>"; };
+		1592317815BB563F00DC1607 /* BlueGraident.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueGraident.png; sourceTree = "<group>"; };
+		1592317915BB563F00DC1607 /* greytablecell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greytablecell.png; sourceTree = "<group>"; };
+		1592317A15BB563F00DC1607 /* lightBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightBlue.png; sourceTree = "<group>"; };
+		1592317B15BB563F00DC1607 /* LightGreenButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightGreenButton.png; sourceTree = "<group>"; };
+		1592317C15BB563F00DC1607 /* LightRedButtonHover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightRedButtonHover.png; sourceTree = "<group>"; };
+		1592317D15BB563F00DC1607 /* LightYellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightYellow.png; sourceTree = "<group>"; };
+		1592317E15BB563F00DC1607 /* limegreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = limegreen.png; sourceTree = "<group>"; };
+		1592317F15BB563F00DC1607 /* NavyBlueNoShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavyBlueNoShadow.png; sourceTree = "<group>"; };
+		1592318015BB563F00DC1607 /* OrangeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OrangeButton.png; sourceTree = "<group>"; };
+		1592318115BB563F00DC1607 /* OrangeShadow copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OrangeShadow copy.png"; sourceTree = "<group>"; };
+		1592318215BB563F00DC1607 /* OrangeShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OrangeShadow.png; sourceTree = "<group>"; };
+		1592318315BB563F00DC1607 /* PinkButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PinkButton.png; sourceTree = "<group>"; };
+		1592318415BB563F00DC1607 /* pinktablecell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinktablecell.png; sourceTree = "<group>"; };
+		1592318515BB563F00DC1607 /* ShinyGreenButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShinyGreenButton.png; sourceTree = "<group>"; };
+		1592318615BB563F00DC1607 /* UIAlertSheetDefaultBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIAlertSheetDefaultBackground.png; sourceTree = "<group>"; };
+		1592319B15BB576600DC1607 /* titleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = titleController.h; sourceTree = "<group>"; };
+		1592319C15BB576600DC1607 /* titleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = titleController.m; sourceTree = "<group>"; };
+		1592319E15BB5FB400DC1607 /* Palgwe 1 - Grand Master Park.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Palgwe 1 - Grand Master Park.mp4"; sourceTree = "<group>"; };
+		1592319F15BB5FB400DC1607 /* taeguk1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = taeguk1.mp4; sourceTree = "<group>"; };
+		159231A215BB602C00DC1607 /* FormsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormsViewController.h; sourceTree = "<group>"; };
+		159231A315BB602C00DC1607 /* FormsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormsViewController.m; sourceTree = "<group>"; };
+		159231A515BB613F00DC1607 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,11 +139,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				155D790915BB7BCA0030FFC9 /* QuartzCore.framework in Frameworks */,
+				1575B62115BB1462007AAE74 /* OpenGLES.framework in Frameworks */,
+				159231A615BB613F00DC1607 /* MediaPlayer.framework in Frameworks */,
 				1575B61915BB1462007AAE74 /* UIKit.framework in Frameworks */,
 				1575B61B15BB1462007AAE74 /* Foundation.framework in Frameworks */,
 				1575B61D15BB1462007AAE74 /* CoreGraphics.framework in Frameworks */,
 				1575B61F15BB1462007AAE74 /* GLKit.framework in Frameworks */,
-				1575B62115BB1462007AAE74 /* OpenGLES.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +172,8 @@
 		1575B61715BB1462007AAE74 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				155D790815BB7BCA0030FFC9 /* QuartzCore.framework */,
+				159231A515BB613F00DC1607 /* MediaPlayer.framework */,
 				1575B61815BB1462007AAE74 /* UIKit.framework */,
 				1575B61A15BB1462007AAE74 /* Foundation.framework */,
 				1575B61C15BB1462007AAE74 /* CoreGraphics.framework */,
@@ -91,14 +186,35 @@
 		1575B62215BB1462007AAE74 /* Taekwondo */ = {
 			isa = PBXGroup;
 			children = (
+				155D791615BB7DBF0030FFC9 /* EAGLView.h */,
+				155D791715BB7DBF0030FFC9 /* EAGLView.m */,
+				155D791815BB7DBF0030FFC9 /* ES2Renderer.h */,
+				155D791915BB7DBF0030FFC9 /* ES2Renderer.m */,
+				155D791A15BB7DBF0030FFC9 /* iOSGLEssentialsAppDelegate.h */,
+				155D791B15BB7DBF0030FFC9 /* iOSGLEssentialsAppDelegate.m */,
+				155D790115BB77340030FFC9 /* OpenGLRenderer.h */,
+				155D790215BB77340030FFC9 /* OpenGLRenderer.m */,
+				155D78EA15BB752A0030FFC9 /* TechniqueViewController.h */,
+				155D78EB15BB752A0030FFC9 /* TechniqueViewController.m */,
 				1575B62B15BB1462007AAE74 /* AppDelegate.h */,
 				1575B62C15BB1462007AAE74 /* AppDelegate.m */,
 				1575B62E15BB1462007AAE74 /* MainStoryboard_iPhone.storyboard */,
+				1592319B15BB576600DC1607 /* titleController.h */,
+				1592319C15BB576600DC1607 /* titleController.m */,
 				1575B63115BB1462007AAE74 /* MainStoryboard_iPad.storyboard */,
-				1575B63415BB1462007AAE74 /* Shader.fsh */,
-				1575B63615BB1462007AAE74 /* Shader.vsh */,
 				1575B63815BB1462007AAE74 /* ViewController.h */,
 				1575B63915BB1462007AAE74 /* ViewController.m */,
+				1575B69015BB2263007AAE74 /* Menu.m */,
+				1575B68F15BB2263007AAE74 /* Menu.h */,
+				1575B69C15BB2537007AAE74 /* About.h */,
+				1575B69D15BB2537007AAE74 /* About.m */,
+				1592316E15BB4EE800DC1607 /* DietPlan.h */,
+				1592316F15BB4EE800DC1607 /* DietPlan.m */,
+				159231A215BB602C00DC1607 /* FormsViewController.h */,
+				159231A315BB602C00DC1607 /* FormsViewController.m */,
+				1592317015BB4EE800DC1607 /* DietPlan.xib */,
+				1575B63415BB1462007AAE74 /* Shader.fsh */,
+				1575B63615BB1462007AAE74 /* Shader.vsh */,
 				1575B62315BB1462007AAE74 /* Supporting Files */,
 			);
 			path = Taekwondo;
@@ -107,10 +223,47 @@
 		1575B62315BB1462007AAE74 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				155D790315BB77E60030FFC9 /* demon.png */,
+				155D790415BB77E60030FFC9 /* demon.model */,
+				155D790515BB77E60030FFC9 /* OSXGLEssentials-Info.plist */,
+				155D78F115BB77110030FFC9 /* sourceUtil.c */,
+				155D78F215BB77110030FFC9 /* sourceUtil.h */,
+				155D78F315BB77110030FFC9 /* vectorUtil.c */,
+				155D78F415BB77110030FFC9 /* vectorUtil.h */,
+				155D78F515BB77110030FFC9 /* modelUtil.c */,
+				155D78F615BB77110030FFC9 /* modelUtil.h */,
+				155D78F715BB77110030FFC9 /* matrixUtil.c */,
+				155D78F815BB77110030FFC9 /* matrixUtil.h */,
+				155D78F915BB77110030FFC9 /* imageUtil.m */,
+				155D78FA15BB77110030FFC9 /* imageUtil.h */,
+				155D78FB15BB77110030FFC9 /* glUtil.h */,
+				155D78FC15BB77110030FFC9 /* OSXGLEssentials_Prefix.pch */,
 				1575B62415BB1462007AAE74 /* Taekwondo-Info.plist */,
 				1575B62515BB1462007AAE74 /* InfoPlist.strings */,
+				1592317315BB563F00DC1607 /* BabyBlueButtonActive.png */,
+				1592317415BB563F00DC1607 /* BabyOrangeButtonActive.png */,
+				1592317515BB563F00DC1607 /* BlackButton.png */,
+				1592317615BB563F00DC1607 /* BlackButtonNoShadow.png */,
+				1592317715BB563F00DC1607 /* blueandgreen.png */,
+				1592317815BB563F00DC1607 /* BlueGraident.png */,
+				1592317915BB563F00DC1607 /* greytablecell.png */,
+				1592317A15BB563F00DC1607 /* lightBlue.png */,
+				1592317B15BB563F00DC1607 /* LightGreenButton.png */,
+				1592317C15BB563F00DC1607 /* LightRedButtonHover.png */,
+				1592317D15BB563F00DC1607 /* LightYellow.png */,
+				1592317E15BB563F00DC1607 /* limegreen.png */,
+				1592317F15BB563F00DC1607 /* NavyBlueNoShadow.png */,
+				1592318015BB563F00DC1607 /* OrangeButton.png */,
+				1592318115BB563F00DC1607 /* OrangeShadow copy.png */,
+				1592318215BB563F00DC1607 /* OrangeShadow.png */,
+				1592318315BB563F00DC1607 /* PinkButton.png */,
+				1592318415BB563F00DC1607 /* pinktablecell.png */,
+				1592318515BB563F00DC1607 /* ShinyGreenButton.png */,
+				1592318615BB563F00DC1607 /* UIAlertSheetDefaultBackground.png */,
 				1575B62815BB1462007AAE74 /* main.m */,
 				1575B62A15BB1462007AAE74 /* Taekwondo-Prefix.pch */,
+				1592319E15BB5FB400DC1607 /* Palgwe 1 - Grand Master Park.mp4 */,
+				1592319F15BB5FB400DC1607 /* taeguk1.mp4 */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -170,6 +323,29 @@
 				1575B63315BB1462007AAE74 /* MainStoryboard_iPad.storyboard in Resources */,
 				1575B63515BB1462007AAE74 /* Shader.fsh in Resources */,
 				1575B63715BB1462007AAE74 /* Shader.vsh in Resources */,
+				1592317215BB4EE900DC1607 /* DietPlan.xib in Resources */,
+				1592318715BB564000DC1607 /* BabyBlueButtonActive.png in Resources */,
+				1592318815BB564000DC1607 /* BabyOrangeButtonActive.png in Resources */,
+				1592318915BB564000DC1607 /* BlackButton.png in Resources */,
+				1592318A15BB564000DC1607 /* BlackButtonNoShadow.png in Resources */,
+				1592318B15BB564000DC1607 /* blueandgreen.png in Resources */,
+				1592318C15BB564000DC1607 /* BlueGraident.png in Resources */,
+				1592318D15BB564000DC1607 /* greytablecell.png in Resources */,
+				1592318E15BB564000DC1607 /* lightBlue.png in Resources */,
+				1592318F15BB564000DC1607 /* LightGreenButton.png in Resources */,
+				1592319015BB564000DC1607 /* LightRedButtonHover.png in Resources */,
+				1592319115BB564000DC1607 /* LightYellow.png in Resources */,
+				1592319215BB564000DC1607 /* limegreen.png in Resources */,
+				1592319315BB564000DC1607 /* NavyBlueNoShadow.png in Resources */,
+				1592319415BB564000DC1607 /* OrangeButton.png in Resources */,
+				1592319515BB564000DC1607 /* OrangeShadow copy.png in Resources */,
+				1592319615BB564000DC1607 /* OrangeShadow.png in Resources */,
+				1592319715BB564000DC1607 /* PinkButton.png in Resources */,
+				1592319815BB564000DC1607 /* pinktablecell.png in Resources */,
+				1592319915BB564000DC1607 /* ShinyGreenButton.png in Resources */,
+				1592319A15BB564000DC1607 /* UIAlertSheetDefaultBackground.png in Resources */,
+				159231A015BB5FB400DC1607 /* Palgwe 1 - Grand Master Park.mp4 in Resources */,
+				159231A115BB5FB400DC1607 /* taeguk1.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +359,12 @@
 				1575B62915BB1462007AAE74 /* main.m in Sources */,
 				1575B62D15BB1462007AAE74 /* AppDelegate.m in Sources */,
 				1575B63A15BB1462007AAE74 /* ViewController.m in Sources */,
+				1575B69215BB2263007AAE74 /* Menu.m in Sources */,
+				1575B69F15BB2538007AAE74 /* About.m in Sources */,
+				1592317115BB4EE900DC1607 /* DietPlan.m in Sources */,
+				1592319D15BB576600DC1607 /* titleController.m in Sources */,
+				159231A415BB602C00DC1607 /* FormsViewController.m in Sources */,
+				155D78EC15BB752A0030FFC9 /* TechniqueViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +448,10 @@
 		1575B63E15BB1463007AAE74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Taekwondo/Taekwondo-Prefix.pch";
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
@@ -278,6 +464,10 @@
 		1575B63F15BB1463007AAE74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Taekwondo/Taekwondo-Prefix.pch";
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
@@ -306,6 +496,7 @@
 				1575B63F15BB1463007AAE74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
